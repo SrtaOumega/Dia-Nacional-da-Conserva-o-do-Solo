@@ -129,12 +129,14 @@ section {
 }*/
 
 .introducao section {
+
+    height: 80vh;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
     height: 180vh;
-    min-height: 400vh;
+    min-height: 200vh;
     width: 120rem;
 
 }
@@ -169,17 +171,17 @@ section {
 }
 
 .rodape {
-    position: relative, bottom 0;
-    flex-direction: column;
+    position: relative;
     text-align: center;
     padding: 2rem;
     border-bottom: var(--border);
     background-color: #ebac38;
-    height: 13vh;
+    height: 11vh;
 }
 
 .rodape a{
-    color: rgb(0, 0, 0);
+    color: rgb(18, 18, 158);
+    style: none;
 }
 
 .imgdacat {
@@ -201,8 +203,6 @@ section {
 }
 
 .sobre-container section {
-    min-height: 125vh;
-    top: -8rem;
     max-width: 900px;
     display: flex;
     background-position: center;
