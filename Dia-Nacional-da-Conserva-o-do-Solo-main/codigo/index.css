@@ -129,14 +129,12 @@ section {
 }*/
 
 .introducao section {
-
-    height: 80vh;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
     height: 180vh;
-    min-height: 200vh;
+    min-height: 400vh;
     width: 120rem;
 
 }
@@ -176,7 +174,7 @@ section {
     padding: 2rem;
     border-bottom: var(--border);
     background-color: #ebac38;
-    height: 11vh;
+    height: 13vh;
 }
 
 .rodape a{
@@ -203,6 +201,8 @@ section {
 }
 
 .sobre-container section {
+    min-height: 125vh;
+    top: -8rem;
     max-width: 900px;
     display: flex;
     background-position: center;
